@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/search" />
+    <item
+        android:id="@+id/nav_categories"
+        android:icon="@drawable/ic_call_to_action_black_24dp"
+        android:title="@string/all_categories" />
+    <item
+        android:id="@+id/nav_missing_places"
+        android:icon="@drawable/ic_location_on_black_24dp"
+        android:title="@string/add_missing_places" />
+    </group>
+
+    <item android:title="@string/profile">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_person_pin_black_24dp"
+                android:title="@string/login" />
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_search_black_24dp"
+                android:title="@string/profile" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_call_to_action_black_24dp"
+                android:title="@string/logout" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/categories">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_restaurants"
+                android:icon="@drawable/ic_restaurant_menu_black_24dp"
+                android:title="@string/restaurants_cap" />
+            <item
+                android:id="@+id/nav_hotel"
+                android:icon="@drawable/ic_account_balance_black_24dp"
+                android:title="@string/hotels_cap" />
+            <item
+                android:id="@+id/nav_education"
+                android:icon="@drawable/ic_school_black_24dp"
+                android:title="@string/education_cap" />
+                <item
+                    android:id="@+id/nav_shop"
+                    android:icon="@drawable/ic_store_mall_directory_black_24dp"
+                    android:title="@string/shop_cap" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/share">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_share_black_24dp"
+                    android:title="@string/share_cap" />
+                <item
+                    android:id="@+id/nav_rate_us"
+                    android:icon="@drawable/ic_rate_review_black_24dp"
+                    android:title="RATE US" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
